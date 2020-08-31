@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  top: 0;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MainContainer{
+  color:white;
+  margin: 50px;
+  text-align: center;
+
+
+}
+
+.MainContainer .Wel-Msg h2{
+
+font-size: 50px;
+text-align: center;
+font-family: 'Lobster', cursive;
+}
+
+.MainContainer .Wel-Msg p{
+
+font-size: 20px;
+text-align: center;
+}
+
+.MainContainer .UserInput{
+  margin:40px;
+}
+
+.MainContainer .UserInput button{
+  color:white;
+  background-color:black;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 40px;
+  width:90px;
+  transition: 0.4s ease ;
+
+}
+.MainContainer .UserInput button:hover{
+  color:black;
+  background-color: white;
+}
+
+.results-container{
+
+  margin:50px;
+  border:2px solid white;
+  padding:30px;
+}
+
+.results-container .badge{
+  float:right;
+  font-size: 20px;
+  background-color: blue;
+}
