@@ -13,9 +13,13 @@ function getUser(username) {
       document.getElementById("Bio").innerHTML=response.bio;
       document.getElementById("following").innerHTML=response.following;
       document.getElementById("followers").innerHTML=response.followers;
-        document.getElementById("id").innerHTML=response.id;
+      document.getElementById("id").innerHTML=response.id;
+      document.getElementById("link").innerHTML=response.html_url;
+      document.getElementById("link").href=response.html_url;
 
-      })
+    }).catch(error=>{
+      alert(error);
+    })
 
 }
 
