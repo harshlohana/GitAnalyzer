@@ -15,6 +15,6 @@
 What is Fetch Api
 : The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
 
-[Visit Project](https://www.harshlohana.tech/projects/GitAnalyzer)
-
 ![Logo](./Logo/GitHome.png)
+
+[Visit Project](https://www.harshlohana.tech/projects/GitAnalyzer)
