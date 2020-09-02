@@ -16,9 +16,10 @@ body{
 .MainContainer{
   color:white;
   margin: 50px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
   text-align: center;
-
-
 }
 
 .MainContainer .Wel-Msg h2{
@@ -57,9 +58,20 @@ text-align: center;
 .results-container{
 
   margin:50px;
-  border:2px solid white;
   padding:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.results-container .cards{
+
+  margin:20px;
+}
+
+
+
+
 
 .results-container .badge{
   float:right;
